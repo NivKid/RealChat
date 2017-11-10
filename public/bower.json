@@ -1,0 +1,29 @@
+{
+  "name": "RealChat",
+  "version": "1.0",
+  "authors": [
+    "Nived <supernived619@gmail.com>"
+  ],
+
+  "keywords": [
+    "Nodejs",
+    "File-Sharing",
+    "AngularJS",
+    "ChatRoom"
+  ],
+  
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/plugins",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-resource": "~1.4.1",
+    "angular-route": "~1.4.1",
+    "lightbox2": "~2.8.1"
+  }
+}
