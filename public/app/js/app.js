@@ -1,9 +1,9 @@
 var App = angular.module('ChatRoom',['ngResource','ngRoute','ngStorage','socket.io','ngFileUpload','Controllers','Services'])
 .run(["$rootScope", function ($rootScope){
-	$rootScope.baseUrl = 'https://chatrtime.herokuapp.com'; //Application URL
+	$rootScope.baseUrl = 'https://s1mplechat.herokuapp.com'; //Application URL
 }]);
 App.config(function ($routeProvider, $socketProvider){
-	$socketProvider.setConnectionUrl('https://chatrtime.herokuapp.com'); // Socket URL
+	$socketProvider.setConnectionUrl('https://s1mplechat.herokuapp.com'); // Socket URL
 
 	$routeProvider	// AngularJS Routes
 	.when('/v1/', {
