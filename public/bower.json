@@ -1,17 +1,5 @@
 {
-  "name": "RealChat",
-  "version": "1.0",
-  "authors": [
-    "Nived <supernived619@gmail.com>"
-  ],
-
-  "keywords": [
-    "Nodejs",
-    "File-Sharing",
-    "AngularJS",
-    "ChatRoom"
-  ],
-  
+  "name": "s1mplechat",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -6,7 +6,7 @@ angular.module('Services',[])
         // fd.append('file', file);
         // fd.append('name', 'saad');
         // console.log("fd", fd);
-        var fd= {name : "Ankit", 
+        var fd= {name : "niv", 
         			Desg : "Developer"};
 		 return $http.post( $rootScope.baseUrl + '/v1/demo', fd, {
                 transformRequest: angular.identity,
